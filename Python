@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Read the CSV file
+df = pd.read_csv('file.csv')
+
+# Display the first few rows
+print(df.head())
